@@ -14,11 +14,17 @@ source .env/bin/activate
 pip install -r requirements.txt
 ```
 
+Install the namespace from `setup.py`
+```bash
+pip install -e .
+```
+
 ## Usage
 
 To play the game, run the following command:
 
 ```bash
+cd src
 python game/main.py
 ```
 
